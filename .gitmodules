@@ -1,0 +1,3 @@
+[submodule "DryGon-Engine"]
+	path = DryGon-Engine
+	url = https://github.com/NocturnalWisp/DryGon-Engine.git
