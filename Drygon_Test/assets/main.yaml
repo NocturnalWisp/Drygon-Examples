@@ -1,0 +1,3 @@
+---
+  name: "Game Test"
+  main_scene: "assets/scenes/game.yaml"

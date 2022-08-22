@@ -1,0 +1,9 @@
+---
+  objects2d:
+    player:
+      name: "Player"
+      sprite: "./assets/art/player.png"
+      pos:
+        x: 0
+        y: 0
+      script: "../scripts/player.dry"

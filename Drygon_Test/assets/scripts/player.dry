@@ -1,0 +1,8 @@
+
+start():
+    print("Start!")
+end
+
+update(delta_time):
+    print("Updating!")
+end
