@@ -1,9 +1,9 @@
 ---
-  objects2d:
+  objects 2d:
     player:
       name: "Player"
-      sprite: "./assets/art/player.png"
+      sprite: "art/player.png"
       pos:
         x: 0
         y: 0
-      script: "../scripts/player.dry"
+      script: "scripts/player.dry"
