@@ -4,6 +4,6 @@
       name: "Player"
       sprite: "art/player.png"
       pos:
-        x: 0
-        y: 0
+        x: 2.0
+        y: 2.0
       script: "scripts/player.dry"

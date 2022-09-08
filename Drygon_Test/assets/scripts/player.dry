@@ -1,8 +1,10 @@
 
 start():
-    print("Start!")
+    object.transform.pos = [100.0, 100.0]
+    print("carbon")
 end
 
 update(delta_time):
-    print("Updating!")
+    object.transform.pos = [object.transform.pos.0, object.transform.pos.1] + 1.0
+    #print(object.transform.pos);
 end
