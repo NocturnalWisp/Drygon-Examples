@@ -1,10 +1,18 @@
+pub? external? cat = "objects/cat.yaml"
 
 start():
-    object.transform.pos = [100.0, 100.0]
-    print("carbon")
+    register_input("KEY", "UP", "DOWN")
+
+    print(object.transform.pos)
+
+    eat("Charlie", 67)
 end
 
+
 update(delta_time):
-    object.transform.pos = [object.transform.pos.0, object.transform.pos.1] + 1.0
-    #print(object.transform.pos);
+    object.transform.pos++
+end
+
+eat(name, amount):
+    print(name + " eats " + amount + " strawberries.")
 end
